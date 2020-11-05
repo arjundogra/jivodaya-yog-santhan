@@ -40,12 +40,18 @@ function Footer() {
           <h2>Follow Us On</h2>
           <ul className="followLinks">
             <li>
-              <a href="https://facebook.com">
+              <a
+                href="https://facebook.com/jivodayayog.sansthan"
+                target="_blank"
+              >
                 <FaFacebook color="#ADEFD1FF" />
               </a>
             </li>
             <li>
-              <a href="https://facebook.com">
+              <a
+                href="https://instagram.com/jivodayyogsansthan"
+                target="_blank"
+              >
                 <FaInstagram color="#ADEFD1FF" />
               </a>
             </li>
