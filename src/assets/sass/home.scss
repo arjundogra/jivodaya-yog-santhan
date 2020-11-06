@@ -1,5 +1,4 @@
 .home {
-  height: 100vh;
   .banner {
     background-image: url("https://images.unsplash.com/photo-1559595500-e15296bdbb48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80");
     height: 100vh;
@@ -24,6 +23,30 @@
         color: white;
         font-weight: 200;
         font-size: 1.2rem;
+      }
+    }
+  }
+  .content {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d3;
+    .content-container {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: #ffffff;
+      padding: 15px 20px;
+      border-radius: 25px;
+      .yogaContent {
+        display: flex;
+        img {
+          width: 400px;
+          object-fit: contain;
+          margin: 0px 20px;
+        }
       }
     }
   }
