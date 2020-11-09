@@ -1,55 +1,73 @@
 .about {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-  background-color: #d3d3d3;
+  // background-color: #d3d3d3;
+  // background-color: #adefd1ff;
   padding-top: 60px;
   .container_ {
     display: flex;
-    height: 500px;
-    width: 80%;
+    height: 92vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    margin: 40px 0px;
-    border-radius: 25px;
-    padding: 0px 15px;
+    // background-color: rgb(247, 224, 185);
+    border: 0.5px solid black;
 
-    h2 {
-      margin: 25px;
-      font-size: 2rem;
-    }
-    .content {
-      display: flex;
-      flex-direction: row;
-      .image {
+    .containerData {
+      background-color: rgba(1, 1, 1, 0.4);
+      height: 100%;
+      width: 100%;
+      h2 {
+        margin-bottom: 50px;
+        font-size: 3rem;
+        font-weight: 300;
+        color: white;
+      }
+      .content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        img {
-          width: 180px;
-          object-fit: contain;
+        justify-content: center;
+        .info {
+          color: white;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+        .image {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          img {
+            width: 180px;
+            object-fit: contain;
+          }
+          h4 {
+            margin: 0px;
+            font-weight: 400;
+          }
         }
       }
     }
   }
   .organisationContainer {
     display: flex;
-    height: 500px;
-    width: 80%;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    margin: 20px 0px;
-    border-radius: 25px;
-    padding: 0px 15px;
+    padding: 70px 15px;
+    img {
+      width: 400px;
+      object-fit: contain;
+    }
     h2 {
-      margin: 25px;
-      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 3rem;
+      font-weight: 300;
     }
   }
 }

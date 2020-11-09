@@ -2,15 +2,18 @@ import React from "react";
 import {
   FaInstagram,
   FaFacebook,
-  FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
+  FaTwitter,
 } from "react-icons/fa";
 
 function Footer() {
   return (
     <div className="footer_">
       <div className="details">
+        <div>
+          <img src="https://cdn.pixabay.com/photo/2014/04/02/10/15/meditation-303260_960_720.png" />
+        </div>
         <div className="address">
           <h2>Address</h2>
           <address>
@@ -53,6 +56,11 @@ function Footer() {
                 target="_blank"
               >
                 <FaInstagram color="#ADEFD1FF" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank">
+                <FaTwitter color="#ADEFD1FF" />
               </a>
             </li>
           </ul>

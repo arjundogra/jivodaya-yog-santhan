@@ -27,7 +27,7 @@ function Contact() {
   };
   return (
     <div className="contactUs">
-      <section class="mb-4">
+      <section class="col-md-5 offset-md-5 mb-4">
         <h2 class="h1-responsive font-weight-bold text-center my-4">
           Contact us
         </h2>
@@ -38,7 +38,7 @@ function Contact() {
         </p>
 
         <div class="row">
-          <div class="col-md-9 mb-md-0 mb-5">
+          <div class="col-md-12 mb-md-0 mb-5">
             <form onSubmit={sendEmail}>
               <Form.Group controlId="name">
                 <Form.Label>Full Name</Form.Label>

@@ -23,7 +23,10 @@ const NavLinks = [
 function Nav() {
   return (
     <div className="nav">
-      <span>जीवोदय योग संसथान </span>
+      <span>
+        <img src="https://cdn.pixabay.com/photo/2014/04/02/10/15/meditation-303260_960_720.png" />
+        जीवोदय योग संसथान{" "}
+      </span>
       <ul>
         {NavLinks.map((link, index) => (
           <li key={index}>

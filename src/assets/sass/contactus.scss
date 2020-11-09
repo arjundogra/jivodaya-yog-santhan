@@ -1,6 +1,23 @@
 .contactUs {
+  background-image: url("https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1970&q=80");
+  background-position: center;
   display: flex;
-  height: 800px;
+  height: 900px;
   align-items: center;
   justify-content: center;
+  color: white;
+  section {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+  }
+  h2 {
+    color: #f2aa4cff;
+    font-weight: 800;
+  }
+  button {
+    margin-bottom: 20px;
+    background-color: #adefd1ff;
+    font-weight: 600;
+    color: black;
+  }
 }
