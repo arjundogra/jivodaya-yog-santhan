@@ -14,6 +14,11 @@ const NavLinks = [
     title: "Contact Us",
     path: "/contact-us",
   },
+  ,
+  {
+    title: "Gallery",
+    path: "/gallery",
+  },
 ];
 
 function Nav() {
