@@ -7,17 +7,16 @@ const NavLinks = [
     path: "/",
   },
   {
+    title: "Gallery",
+    path: "/gallery",
+  },
+  {
     title: "About",
     path: "/about",
   },
   {
     title: "Contact Us",
     path: "/contact-us",
-  },
-  ,
-  {
-    title: "Gallery",
-    path: "/gallery",
   },
 ];
 

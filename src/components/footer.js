@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer_">
       <div className="details">
         <div className="address">
           <h2>Address</h2>
@@ -23,7 +23,7 @@ function Footer() {
         </div>
         <div>
           <h2>Contact Us</h2>
-          <ul className="contactUs">
+          <ul className="contactUs_">
             <li>
               <FaPhoneAlt />
               <a href="tel: +919811474849">(+91)98114-74849</a>
