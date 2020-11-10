@@ -8,13 +8,14 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-
+import ScrollToTop from "./components/ScrollToTop";
 import PageRenderer from "./PageRenderer";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <ScrollToTop />
         <Nav />
         <Switch>
           <Route path="/:page" component={PageRenderer} />

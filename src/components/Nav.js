@@ -11,6 +11,10 @@ const NavLinks = [
     path: "/gallery",
   },
   {
+    title: "Knowledge Center",
+    path: "/library",
+  },
+  {
     title: "About",
     path: "/about",
   },
