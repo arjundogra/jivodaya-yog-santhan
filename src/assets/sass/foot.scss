@@ -1,48 +1,61 @@
 .footer_ {
-  min-height: 180px;
   background-color: #101820ff;
   color: #f2aa4cff;
   padding-top: 50px;
 
   .details {
-    height: 300px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     h2 {
+      font-size: 1.8rem;
       font-weight: 400;
+      text-align: center;
     }
 
-    img {
-      width: 150px;
+    .imageLogo {
+      margin: 20px;
+      img {
+        width: 120px;
+      }
     }
 
     .address {
+      margin: 20px;
       address {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 200;
         color: #adefd1ff;
       }
     }
 
-    .followLinks {
-      display: flex;
-      justify-content: center;
-      a {
-        font-size: 2rem;
-        margin-right: 20px;
+    .Links {
+      margin: 20px;
+      .followLinks {
+        display: flex;
+        justify-content: center;
+        a {
+          font-size: 2rem;
+          margin-right: 20px;
+        }
       }
     }
 
-    .contactUs_ {
-      color: #adefd1ff;
-      li {
-        a {
-          margin-left: 15px;
-          margin-bottom: 15px;
-          text-decoration: none;
-          color: #adefd1ff;
+    .contact {
+      margin: 20px;
+      h2 {
+        text-align: center;
+      }
+      .contactUs_ {
+        color: #adefd1ff;
+        li {
+          a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #adefd1ff;
+          }
         }
       }
     }
@@ -50,7 +63,7 @@
     ul {
       padding: 0;
       li {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         list-style: none;
       }
     }
@@ -64,6 +77,45 @@
     p {
       font-size: 1.2rem;
       font-weight: 200;
+    }
+  }
+}
+
+@media screen and (max-width: 846px) {
+  .footer_ {
+    .details {
+      img {
+        display: block;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      .address {
+        address {
+          font-size: 1rem;
+        }
+      }
+      .contactUs_ {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer_ {
+    .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .foot {
+      p {
+        font-size: 0.7rem;
+      }
     }
   }
 }

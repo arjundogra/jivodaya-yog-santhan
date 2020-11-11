@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className="footer_">
       <div className="details">
-        <div>
+        <div className="imageLogo">
           <img src="https://cdn.pixabay.com/photo/2014/04/02/10/15/meditation-303260_960_720.png" />
         </div>
         <div className="address">
@@ -24,7 +24,7 @@ function Footer() {
             110062
           </address>
         </div>
-        <div>
+        <div className="contact">
           <h2>Contact Us</h2>
           <ul className="contactUs_">
             <li>
@@ -34,12 +34,12 @@ function Footer() {
             <li>
               <FaEnvelope />
               <a href="mailto:contact@jivodayyogsansthan.com">
-                contact@jivodayyogsansthan.com
+                <small>contact@jivodayyogsansthan.com</small>
               </a>
             </li>
           </ul>
         </div>
-        <div>
+        <div className="Links">
           <h2>Follow Us On</h2>
           <ul className="followLinks">
             <li>

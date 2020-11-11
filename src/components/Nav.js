@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 const NavLinks = [
   {
@@ -26,6 +27,7 @@ const NavLinks = [
 
 function Nav() {
   const [show, handleShow] = useState(false);
+  const [menuActive, setmenuActive] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
@@ -41,15 +43,20 @@ function Nav() {
     <div className={`navBar ${show && "fixed"}`}>
       <span>
         <img src="https://cdn.pixabay.com/photo/2014/04/02/10/15/meditation-303260_960_720.png" />
-        जीवोदय योग संसथान{" "}
+        जीवोदय योग संसथान
       </span>
-      <ul>
-        {NavLinks.map((link, index) => (
-          <li key={index}>
-            <Link to={link.path}>{link.title}</Link>
-          </li>
-        ))}
-      </ul>
+      <div className={`menu-content-container ${menuActive && "active"}`}>
+        <ul>
+          {NavLinks.map((link, index) => (
+            <li key={index}>
+              <Link to={link.path}>{link.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <i className="menuIcon" onClick={() => setmenuActive(!menuActive)}>
+        <FaBars />
+      </i>
     </div>
   );
 }

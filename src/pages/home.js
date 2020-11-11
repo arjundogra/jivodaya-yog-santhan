@@ -10,9 +10,9 @@ function Home() {
         </div>
       </div>
       <div className="content">
+        <h2>Yoga A Way Of Life</h2>
         <div className="content-container">
           <div>
-            <h2>Yoga A Way Of Life</h2>
             <p>
               Ut anim in laborum aute reprehenderit do nulla laborum. Ex nulla
               in aliqua incididunt minim reprehenderit labore ea deserunt cillum
