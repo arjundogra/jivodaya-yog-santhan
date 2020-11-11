@@ -41,10 +41,12 @@ function Nav() {
 
   return (
     <div className={`navBar ${show && "fixed"}`}>
-      <span>
-        <img src="https://cdn.pixabay.com/photo/2014/04/02/10/15/meditation-303260_960_720.png" />
-        जीवोदय योग संसथान
-      </span>
+      <Link to="./home" className="Link">
+        <span>
+          <img src="https://cdn.pixabay.com/photo/2014/04/02/10/15/meditation-303260_960_720.png" />
+          जीवोदय योग संसथान
+        </span>
+      </Link>
       <div className={`menu-content-container ${menuActive && "active"}`}>
         <ul>
           {NavLinks.map((link, index) => (

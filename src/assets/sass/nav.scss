@@ -9,19 +9,24 @@
   position: fixed;
   transition-timing-function: ease-in;
   transition: all 0.5s;
-  span {
-    img {
-      width: 40px;
-      object-fit: contain;
-      margin-right: 15px;
+  .Link {
+    text-decoration: none;
+    span {
+      height: 100%;
+      img {
+        width: 40px;
+        object-fit: contain;
+        margin-right: 15px;
+      }
+      cursor: pointer;
+      color: #adefd1ff;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+      font-family: "Arya", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 400;
     }
-    color: #adefd1ff;
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    font-family: "Arya", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
   }
 
   .menu-content-container {
