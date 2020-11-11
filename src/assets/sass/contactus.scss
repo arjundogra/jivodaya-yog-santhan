@@ -2,12 +2,12 @@
   background-image: url("https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1970&q=80");
   background-position: center;
   display: flex;
-  height: 900px;
   align-items: center;
   justify-content: center;
   color: white;
   section {
     background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 80px;
     padding: 10px 20px;
   }
   h2 {

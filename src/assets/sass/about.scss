@@ -1,10 +1,9 @@
 .about {
   // background-color: #d3d3d3;
   // background-color: #adefd1ff;
-  padding-top: 60px;
   .container_ {
     display: flex;
-    height: 92vh;
+    height: 100vh;
     width: 100vw;
     background-image: url("https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     background-position: center;
@@ -26,6 +25,7 @@
         color: white;
       }
       .content {
+        padding-right: 25px;
         display: flex;
         flex-direction: column;
         align-items: center;

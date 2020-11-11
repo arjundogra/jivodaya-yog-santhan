@@ -1,9 +1,10 @@
 .gallery {
+  background-color: black;
+  z-index: -2;
   .carousel {
     padding-top: 70px;
     height: 400px;
     display: flex;
-    z-index: -1;
     img {
       position: absolute;
       top: 50%;

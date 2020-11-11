@@ -1,0 +1,34 @@
+.library {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  .firstContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+    margin: 100px;
+    padding: 50px 40px;
+    border-radius: 20px;
+    h2 {
+      font-size: 2.8rem;
+      margin: 15px;
+    }
+    .containerData {
+      display: flex;
+      align-items: center;
+      img {
+        width: 300px;
+      }
+      P {
+        margin: 0px 15px;
+      }
+    }
+  }
+}

@@ -1,12 +1,14 @@
-.nav {
+.navBar {
   height: 65px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #101820ff;
+  // background-color: #101820ff;
+  background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   z-index: 1;
-
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
   span {
     img {
       width: 40px;
@@ -48,4 +50,7 @@
       }
     }
   }
+}
+.fixed {
+  background-color: #101820ff;
 }
