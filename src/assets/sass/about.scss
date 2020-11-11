@@ -2,22 +2,17 @@
   // background-color: #d3d3d3;
   // background-color: #adefd1ff;
   .container_ {
+    padding-top: 75px;
     display: flex;
-    height: 100vh;
-    width: 100vw;
-    background-image: url("https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-    background-position: center;
-    width: 100%;
+    // background-color: #ff4e00;
+    // background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    background-color: #fdb813;
+    background-image: linear-gradient(315deg, #fdb813 0%, #788cb6 74%);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // background-color: rgb(247, 224, 185);
-    border: 0.5px solid black;
 
     .containerData {
-      background-color: rgba(1, 1, 1, 0.4);
-      height: 100%;
-      width: 100%;
       h2 {
         margin-bottom: 50px;
         font-size: 3rem;
@@ -30,6 +25,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 10px 20px;
+        h2 {
+          text-align: center;
+        }
         .info {
           color: white;
           display: flex;
@@ -55,19 +54,51 @@
   }
   .organisationContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 70px 15px;
-    img {
-      width: 400px;
-      object-fit: contain;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    color: white;
+    .organisation-data {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 300px;
+        object-fit: contain;
+      }
     }
+
     h2 {
       text-align: center;
       margin-bottom: 50px;
       font-size: 3rem;
       font-weight: 300;
+    }
+  }
+}
+@media screen and (max-width: 769px) {
+  .about {
+    .container_ {
+      .containerData {
+        .content {
+          .info {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+    .organisationContainer {
+      flex-direction: column;
+      .organisation-data {
+        flex-direction: column;
+        img {
+          width: 250px;
+        }
+      }
     }
   }
 }
