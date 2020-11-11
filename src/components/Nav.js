@@ -49,7 +49,9 @@ function Nav() {
         <ul>
           {NavLinks.map((link, index) => (
             <li key={index}>
-              <Link to={link.path}>{link.title}</Link>
+              <Link onClick={() => setmenuActive(false)} to={link.path}>
+                {link.title}
+              </Link>
             </li>
           ))}
         </ul>

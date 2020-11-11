@@ -33,10 +33,10 @@ function Home() {
         </div>
       </div>
       <div className="content">
-        <div className="content-container">
+        <h2>Heading</h2>
+        <div className="content-container flexReverse">
           <img src="https://cdn.pixabay.com/photo/2017/02/01/10/20/exercise-2029428_1280.png" />
           <div>
-            <h2>Heading</h2>
             <p>
               Anim ullamco est voluptate sit aute. Duis non voluptate commodo
               exercitation nulla tempor cillum exercitation nulla est culpa do

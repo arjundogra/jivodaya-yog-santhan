@@ -62,8 +62,8 @@ function Library() {
     <div className="library">
       <div></div>
       <div className="firstContainer">
-        <h2>Heading</h2>
-        <p>
+        <h2 className="firstHeader">Heading</h2>
+        <p className="infoPara">
           Proident minim qui mollit minim voluptate in sint aute sint
           fugiat.Quis sit quis velit aliqua et non cupidatat sunt.Qui esse
           dolore proident adipisicing dolor labore proident pariatur qui
@@ -95,8 +95,8 @@ function Library() {
         </Button>
       </div>
       <div className="firstContainer">
-        <h2>Heading</h2>
-        <p>
+        <h2 className="secondHeader">Heading</h2>
+        <p className="infoPara">
           Proident minim qui mollit minim voluptate in sint aute sint
           fugiat.Quis sit quis velit aliqua et non cupidatat sunt.Qui esse
           dolore proident adipisicing dolor labore proident pariatur qui

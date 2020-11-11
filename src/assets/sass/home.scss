@@ -74,7 +74,7 @@
       img {
         width: 300px;
         object-fit: contain;
-        margin: 0px 40px;
+        margin: 20px 40px;
       }
     }
   }
@@ -174,9 +174,18 @@
         }
       }
     }
+    .events {
+      .card-deck {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
     .content {
       .content-container {
         flex-direction: column-reverse;
+      }
+      .flexReverse {
+        flex-direction: column;
       }
     }
   }

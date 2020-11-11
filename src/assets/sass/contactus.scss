@@ -21,3 +21,15 @@
     color: black;
   }
 }
+@media screen and (max-width: 426px) {
+  .contactUs {
+    section {
+      p {
+        font-size: 0.8rem;
+      }
+      padding: 0px 20px;
+      margin-top: 65px;
+      margin-bottom: 0px;
+    }
+  }
+}
